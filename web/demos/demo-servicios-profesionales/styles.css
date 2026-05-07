@@ -1,0 +1,23 @@
+:root {
+  --ink: #17221f;
+  --muted: #62716c;
+  --paper: #eef3ef;
+  --paper-strong: #d5e2d9;
+  --surface: #fcfffb;
+  --accent: #1f5a50;
+  --accent-dark: #123830;
+  --accent-soft: #dcece5;
+  --secondary: #b06e45;
+  --secondary-soft: #ead6c6;
+  --line: rgba(18, 56, 48, 0.16);
+  --footer: #121e1b;
+}
+
+.demo-pro .brand-mark {
+  border-radius: 14px 5px 14px 14px;
+}
+
+.demo-pro .visual-scene {
+  background:
+    linear-gradient(135deg, #dcece5, #fcfffb 58%, #ead6c6);
+}

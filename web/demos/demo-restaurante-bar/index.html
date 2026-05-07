@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurante Local | Demo web</title>
+    <meta name="description" content="Demo ficticia de landing web para restaurante o bar local, con carta destacada, reservas de demo, ubicación, horarios y FAQ.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#7f3f2a">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="Restaurante Local | Demo web">
+    <meta property="og:description" content="Demo ficticia para mostrar una web de restaurante o bar local.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Restaurante Local | Demo web">
+    <link rel="stylesheet" href="../shared/demo-base.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Mesa Clara",
+        "description": "Restaurante ficticio creado como demo comercial.",
+        "url": "./",
+        "servesCuisine": "Cocina mediterránea",
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle de la Plaza 18",
+          "addressLocality": "Madrid",
+          "addressCountry": "ES"
+        }
+      }
+    </script>
+  </head>
+  <body class="demo-restaurant">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio de Mesa Clara">
+          <span class="brand-mark">MC</span>
+          <span class="brand-copy">
+            <span class="brand-name">Mesa Clara</span>
+            <span class="brand-sector">Restaurante local</span>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú de navegación" aria-controls="site-nav" aria-expanded="false" data-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-nav>
+          <a href="#carta">Carta</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#horarios">Horarios</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <button class="btn btn-primary header-action" type="button" data-demo-action data-demo-message="Esto es una demo. En una web real este botón estaría conectado al WhatsApp, teléfono, email o sistema de reservas del restaurante.">Reservar mesa</button>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Cocina mediterránea de barrio</p>
+            <h1>Una carta corta, producto cuidado y reserva fácil desde el móvil</h1>
+            <p class="hero-lead">Mesa Clara es una demo de restaurante local pensada para enseñar menú, ambiente, horarios y contacto sin perder claridad.</p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-demo-action>Reservar mesa</button>
+              <a class="btn btn-secondary" href="#carta">Ver carta destacada</a>
+            </div>
+            <ul class="trust-strip" aria-label="Puntos de confianza">
+              <li><span></span>Menú diario visible</li>
+              <li><span></span>Reserva rápida</li>
+              <li><span></span>Ubicación clara</li>
+            </ul>
+          </div>
+          <div class="hero-card reveal">
+            <div class="visual-top">
+              <span>Servicio de hoy</span>
+              <strong>Abierto</strong>
+            </div>
+            <div class="visual-scene restaurant-scene" role="img" aria-label="Ilustración de mesa de restaurante con platos y carta">
+              <svg viewBox="0 0 620 430" aria-hidden="true">
+                <rect x="54" y="58" width="512" height="292" rx="24" fill="var(--surface)" opacity="0.9"></rect>
+                <rect x="86" y="92" width="164" height="206" rx="18" fill="var(--accent-soft)"></rect>
+                <path d="M120 132h94M120 172h72M120 212h104M120 252h64" stroke="var(--accent-dark)" stroke-width="10" stroke-linecap="round" opacity="0.72"></path>
+                <circle cx="384" cy="206" r="90" fill="var(--surface)" stroke="var(--accent)" stroke-width="10"></circle>
+                <circle cx="384" cy="206" r="48" fill="var(--secondary-soft)"></circle>
+                <path d="M344 202c30-28 66-26 84 4" fill="none" stroke="var(--secondary)" stroke-width="11" stroke-linecap="round"></path>
+                <path d="M486 118v164M504 118v164M486 176h18" stroke="var(--accent-dark)" stroke-width="9" stroke-linecap="round"></path>
+                <path d="M300 116v180M286 116c0 38 28 38 28 0" fill="none" stroke="var(--accent-dark)" stroke-width="9" stroke-linecap="round"></path>
+              </svg>
+              <div class="scene-note">
+                <strong>Menú del día</strong>
+                <span>Primeros, segundos y postre de ejemplo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="carta" aria-labelledby="carta-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Carta</p>
+            <h2 id="carta-titulo">Platos destacados para decidir rápido</h2>
+            <p>Una web de restaurante funciona mejor cuando la carta está clara, actualizada y pensada para móvil.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card reveal"><span class="card-icon">01</span><h3>Menú de mediodía</h3><p>Propuesta diaria con precio, horario y platos de ejemplo fáciles de leer.</p></article>
+            <article class="card reveal"><span class="card-icon">02</span><h3>Raciones para compartir</h3><p>Selección de entrantes, temporada y recomendaciones de la casa.</p></article>
+            <article class="card reveal"><span class="card-icon">03</span><h3>Carta de fin de semana</h3><p>Especiales para reservas, grupos pequeños y cenas tranquilas.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-band" id="experiencia" aria-labelledby="experiencia-titulo">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experiencia</p>
+            <h2 id="experiencia-titulo">Todo lo importante antes de llamar</h2>
+            <p>La demo muestra cómo presentar ambiente, cocina y condiciones de reserva sin saturar la página.</p>
+          </div>
+          <div class="info-panel reveal">
+            <ul class="feature-list">
+              <li>Fotos o ilustraciones del local sin depender de redes sociales</li>
+              <li>Botón de reserva visible en cabecera y contacto</li>
+              <li>Información de alérgenos y grupos explicada de forma prudente</li>
+              <li>Ubicación y horarios en una sección fácil de encontrar</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="pasos-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Cómo funciona</p>
+            <h2 id="pasos-titulo">Reserva simple en tres pasos</h2>
+          </div>
+          <div class="step-list">
+            <article class="step-card reveal"><span class="step-number">1</span><h3>Elige día</h3><p>El cliente ve horario y disponibilidad orientativa.</p></article>
+            <article class="step-card reveal"><span class="step-number">2</span><h3>Indica personas</h3><p>La reserva real podría conectarse a WhatsApp, teléfono o sistema externo.</p></article>
+            <article class="step-card reveal"><span class="step-number">3</span><h3>Confirma</h3><p>La web reduce dudas antes de escribir o llamar.</p></article>
+            <article class="step-card reveal"><span class="step-number">4</span><h3>Llega al local</h3><p>Dirección y horario quedan visibles sin abrir otra página.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="horarios" aria-labelledby="horarios-titulo">
+        <div class="container location-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Ubicación y horario</p>
+            <h2 id="horarios-titulo">En el centro del barrio</h2>
+            <p>Calle de la Plaza 18, Madrid. Dirección ficticia para enseñar el bloque local.</p>
+            <ul class="hours-list">
+              <li>Lunes a viernes: 13:00 - 16:00 y 20:00 - 23:30</li>
+              <li>Sábado: 13:00 - 00:00</li>
+              <li>Domingo: cerrado por descanso</li>
+            </ul>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-demo-action>Reservar por WhatsApp</button>
+              <button class="btn btn-secondary" type="button" data-demo-action>Cómo llegar</button>
+            </div>
+          </div>
+          <div class="map-card reveal" role="img" aria-label="Mapa visual orientativo del restaurante">
+            <span class="map-road"></span><span class="map-road"></span><span class="map-road"></span>
+            <span class="map-pin"></span>
+            <div class="map-label"><strong>Mesa Clara</strong><span>Mapa de demo sin API externa</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-labelledby="faq-titulo">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2 id="faq-titulo">Preguntas habituales</h2>
+          </div>
+          <div class="faq-list reveal">
+            <details><summary><span>¿Se puede reservar online?</span><span class="faq-icon"></span></summary><p>En esta demo el botón solo muestra un aviso. En una web real se conectaría con WhatsApp, teléfono o reserva.</p></details>
+            <details><summary><span>¿La carta es real?</span><span class="faq-icon"></span></summary><p>No. Los platos son contenido ficticio para enseñar estructura y presentación.</p></details>
+            <details><summary><span>¿Sirve para bares pequeños?</span><span class="faq-icon"></span></summary><p>Sí. Se puede simplificar para menú diario, tapas, desayunos o copas.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-band" id="contacto" aria-labelledby="contacto-titulo">
+        <div class="container contact-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contacto</p>
+            <h2 id="contacto-titulo">Reserva o pregunta por disponibilidad</h2>
+            <p>Bloque visual de contacto preparado para sustituir por los datos reales del restaurante.</p>
+            <div class="contact-actions">
+              <button class="btn btn-primary" type="button" data-demo-action>WhatsApp de reservas</button>
+              <button class="btn btn-secondary" type="button" data-demo-action>Llamar al local</button>
+            </div>
+          </div>
+          <div class="contact-card reveal">
+            <form novalidate data-demo-form>
+              <div class="form-field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="form-field"><label for="personas">Personas</label><input id="personas" name="personas" type="number" min="1" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="form-field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" required></textarea><span class="field-error" aria-live="polite"></span></div>
+              <p class="form-note">Formulario de demo. No envía datos reales.</p>
+              <button class="btn btn-primary" type="submit">Enviar solicitud</button>
+              <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Mesa Clara</strong>
+          <p>Footer legal básico de demo sin validez contractual.</p>
+          <p class="demo-disclaimer">Demo ficticia creada para mostrar una web de ejemplo. No representa un negocio real.</p>
+        </div>
+        <nav aria-label="Enlaces legales de demo">
+          <button class="footer-link" type="button" data-demo-action>Aviso legal</button>
+          <button class="footer-link" type="button" data-demo-action>Privacidad</button>
+          <button class="footer-link" type="button" data-demo-action>Cookies</button>
+        </nav>
+      </div>
+    </footer>
+    <div class="demo-toast" role="status" aria-live="polite" data-demo-toast></div>
+    <script src="script.js" defer></script>
+    <script src="../shared/demo-core.js" defer></script>
+  </body>
+</html>

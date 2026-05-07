@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Autoescuela Local | Demo web</title>
+    <meta name="description" content="Demo ficticia de landing web para autoescuela local, con permisos, método, horarios, FAQ y contacto de demo.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#4f5f66">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="Autoescuela Local | Demo web">
+    <meta property="og:description" content="Demo ficticia para mostrar una web de autoescuela local.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Autoescuela Local | Demo web">
+    <link rel="stylesheet" href="../shared/demo-base.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Ruta 42 Autoescuela",
+        "description": "Autoescuela ficticia creada como demo comercial.",
+        "url": "./",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Paseo de la Estación 42",
+          "addressLocality": "Madrid",
+          "addressCountry": "ES"
+        }
+      }
+    </script>
+  </head>
+  <body class="demo-driving">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio de Ruta 42 Autoescuela">
+          <span class="brand-mark">R42</span>
+          <span class="brand-copy"><span class="brand-name">Ruta 42</span><span class="brand-sector">Autoescuela local</span></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú de navegación" aria-controls="site-nav" aria-expanded="false" data-nav-toggle><span></span><span></span><span></span></button>
+        <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-nav>
+          <a href="#permisos">Permisos</a>
+          <a href="#metodo">Método</a>
+          <a href="#horarios">Horarios</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <button class="btn btn-primary header-action" type="button" data-demo-action>Primera consulta</button>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Carnet con método y seguimiento</p>
+            <h1>Permisos, clases y horarios explicados sin marear al alumno</h1>
+            <p class="hero-lead">Ruta 42 es una demo de autoescuela diseñada para presentar permisos, método, clases prácticas y contacto rápido desde móvil.</p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-demo-action>Preguntar por el permiso B</button>
+              <a class="btn btn-secondary" href="#permisos">Ver permisos</a>
+            </div>
+            <ul class="trust-strip">
+              <li><span></span>Teórica organizada</li>
+              <li><span></span>Clases prácticas</li>
+              <li><span></span>Zona de examen</li>
+            </ul>
+          </div>
+          <div class="hero-card reveal">
+            <div class="visual-top"><span>Clase práctica</span><strong>Demo</strong></div>
+            <div class="visual-scene driving-scene" role="img" aria-label="Ilustración de carretera y coche de autoescuela">
+              <svg viewBox="0 0 620 430" aria-hidden="true">
+                <rect x="62" y="70" width="496" height="288" rx="28" fill="var(--surface)" opacity="0.9"></rect>
+                <path d="M310 356c-18-76-16-162 0-260" stroke="var(--accent-dark)" stroke-width="126" stroke-linecap="round"></path>
+                <path d="M310 338c-14-64-12-144 0-224" stroke="var(--surface)" stroke-width="8" stroke-linecap="round" stroke-dasharray="28 24"></path>
+                <rect x="162" y="236" width="152" height="74" rx="24" fill="var(--accent)"></rect>
+                <path d="M188 236l22-38h62l22 38" fill="var(--secondary)"></path>
+                <circle cx="200" cy="310" r="16" fill="var(--accent-dark)"></circle>
+                <circle cx="276" cy="310" r="16" fill="var(--accent-dark)"></circle>
+                <rect x="402" y="104" width="74" height="74" rx="12" fill="var(--secondary)"></rect>
+                <path d="M426 122h28M426 144h28M426 166h18" stroke="var(--accent-dark)" stroke-width="7" stroke-linecap="round"></path>
+              </svg>
+              <div class="scene-note"><strong>Permiso B</strong><span>Información orientativa en modo demo</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="permisos" aria-labelledby="permisos-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Permisos</p>
+            <h2 id="permisos-titulo">Opciones claras para saber por dónde empezar</h2>
+            <p>La web explica la oferta sin llenar la página de condiciones difíciles de leer.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card reveal"><span class="card-icon">B</span><h3>Carnet de coche</h3><p>Teórica, prácticas y orientación para iniciar el permiso más habitual.</p></article>
+            <article class="card reveal"><span class="card-icon">A</span><h3>Moto</h3><p>Bloque preparado para permisos de moto si la autoescuela los ofrece.</p></article>
+            <article class="card reveal"><span class="card-icon">R</span><h3>Reciclaje</h3><p>Clases de confianza para volver a conducir o practicar maniobras.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-band" id="metodo" aria-labelledby="metodo-titulo">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Método</p>
+            <h2 id="metodo-titulo">Del test a la práctica con seguimiento</h2>
+            <p>La demo presenta un camino fácil de entender, sin prometer aprobados ni resultados garantizados.</p>
+          </div>
+          <div class="info-panel reveal">
+            <ul class="feature-list">
+              <li>Clases teóricas presenciales u online según el centro</li>
+              <li>Prácticas con planificación y recordatorios</li>
+              <li>Información de tarifas y documentación bajo confirmación real</li>
+              <li>Contacto rápido para resolver dudas antes de matricular</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="pasos-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal"><p class="eyebrow">Proceso</p><h2 id="pasos-titulo">Una ruta simple para nuevos alumnos</h2></div>
+          <div class="step-list">
+            <article class="step-card reveal"><span class="step-number">1</span><h3>Información</h3><p>El alumno consulta permiso, horarios y condiciones.</p></article>
+            <article class="step-card reveal"><span class="step-number">2</span><h3>Matrícula</h3><p>En una web real se indicaría documentación necesaria.</p></article>
+            <article class="step-card reveal"><span class="step-number">3</span><h3>Teórica</h3><p>Test, clases y seguimiento del progreso.</p></article>
+            <article class="step-card reveal"><span class="step-number">4</span><h3>Prácticas</h3><p>Reserva de clases y preparación por zonas.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="horarios" aria-labelledby="horarios-titulo">
+        <div class="container location-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Horario y zona</p>
+            <h2 id="horarios-titulo">Atención cerca de la estación</h2>
+            <p>Paseo de la Estación 42, Madrid. Dirección ficticia para demo.</p>
+            <ul class="hours-list">
+              <li>Atención: lunes a viernes, 10:00 - 14:00 y 17:00 - 20:30</li>
+              <li>Prácticas: franjas de mañana y tarde bajo reserva</li>
+              <li>Teórica: horarios orientativos según grupo</li>
+            </ul>
+            <div class="hero-actions"><button class="btn btn-primary" type="button" data-demo-action>Preguntar horarios</button><button class="btn btn-secondary" type="button" data-demo-action>Cómo llegar</button></div>
+          </div>
+          <div class="map-card reveal" role="img" aria-label="Mapa visual orientativo de Ruta 42"><span class="map-road"></span><span class="map-road"></span><span class="map-road"></span><span class="map-pin"></span><div class="map-label"><strong>Ruta 42</strong><span>Mapa de demo sin API externa</span></div></div>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-labelledby="faq-titulo">
+        <div class="container two-column">
+          <div class="section-heading reveal"><p class="eyebrow">FAQ</p><h2 id="faq-titulo">Preguntas de alumnos</h2></div>
+          <div class="faq-list reveal">
+            <details><summary><span>¿La matrícula se puede hacer desde la web?</span><span class="faq-icon"></span></summary><p>En esta demo no. En una web real podría llevar a WhatsApp, teléfono o formulario.</p></details>
+            <details><summary><span>¿Se garantizan aprobados?</span><span class="faq-icon"></span></summary><p>No. Una web profesional debe evitar promesas que no dependen solo del centro.</p></details>
+            <details><summary><span>¿Se pueden poner tarifas?</span><span class="faq-icon"></span></summary><p>Sí, siempre que estén claras y actualizadas por la autoescuela.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-band" id="contacto" aria-labelledby="contacto-titulo">
+        <div class="container contact-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contacto</p>
+            <h2 id="contacto-titulo">Resuelve dudas antes de matricularte</h2>
+            <p>Botones de contacto en modo demo, sin llamadas ni mensajes reales.</p>
+            <div class="contact-actions"><button class="btn btn-primary" type="button" data-demo-action>WhatsApp de autoescuela</button><button class="btn btn-secondary" type="button" data-demo-action>Llamar a oficina</button></div>
+          </div>
+          <div class="contact-card reveal">
+            <form novalidate data-demo-form>
+              <div class="form-field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="form-field"><label for="permiso">Permiso</label><select id="permiso" name="permiso" required><option value="">Selecciona una opción</option><option>B coche</option><option>Moto</option><option>Reciclaje</option></select><span class="field-error" aria-live="polite"></span></div>
+              <div class="form-field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" required></textarea><span class="field-error" aria-live="polite"></span></div>
+              <p class="form-note">Formulario de demo. No envía datos reales.</p>
+              <button class="btn btn-primary" type="submit">Enviar consulta</button>
+              <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><strong>Ruta 42 Autoescuela</strong><p>Footer legal básico de demo sin validez contractual.</p><p class="demo-disclaimer">Demo ficticia creada para mostrar una web de ejemplo. No representa un negocio real.</p></div>
+        <nav aria-label="Enlaces legales de demo"><button class="footer-link" type="button" data-demo-action>Aviso legal</button><button class="footer-link" type="button" data-demo-action>Privacidad</button><button class="footer-link" type="button" data-demo-action>Cookies</button></nav>
+      </div>
+    </footer>
+    <div class="demo-toast" role="status" aria-live="polite" data-demo-toast></div>
+    <script src="script.js" defer></script>
+    <script src="../shared/demo-core.js" defer></script>
+  </body>
+</html>

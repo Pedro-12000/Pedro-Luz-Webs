@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Favicon demo academia</title>
+  <rect width="64" height="64" rx="16" fill="#173f4b"/>
+  <path d="M16 22c12-8 20-8 32 0v25c-12-8-20-8-32 0V22Z" fill="#fbfefd" stroke="#d2a64b" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M32 19v30" stroke="#2f6474" stroke-width="4" stroke-linecap="round"/>
+</svg>

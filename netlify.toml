@@ -1,0 +1,8 @@
+[build]
+  publish = "web"
+  command = ""
+
+[[headers]]
+  for = "/demos/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

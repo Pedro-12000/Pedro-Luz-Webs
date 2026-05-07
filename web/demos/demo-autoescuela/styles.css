@@ -1,0 +1,24 @@
+:root {
+  --ink: #1c2427;
+  --muted: #626f73;
+  --paper: #eff2f1;
+  --paper-strong: #d7dedf;
+  --surface: #fcfdf9;
+  --accent: #56676e;
+  --accent-dark: #26343a;
+  --accent-soft: #dfe7e7;
+  --secondary: #d5ad43;
+  --secondary-soft: #f1e1a9;
+  --line: rgba(38, 52, 58, 0.16);
+  --footer: #171f22;
+}
+
+.demo-driving .brand-mark {
+  border-radius: 999px;
+  font-size: 0.78rem;
+}
+
+.demo-driving .visual-scene {
+  background:
+    linear-gradient(135deg, #dfe7e7, #fcfdf9 56%, #f1e1a9);
+}

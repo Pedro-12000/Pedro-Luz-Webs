@@ -1,0 +1,27 @@
+:root {
+  --ink: #241d19;
+  --muted: #74665e;
+  --paper: #f7efe4;
+  --paper-strong: #ead7c2;
+  --surface: #fffaf3;
+  --accent: #8a422c;
+  --accent-dark: #4d2118;
+  --accent-soft: #f1d8c7;
+  --secondary: #c99046;
+  --secondary-soft: #f4e4c4;
+  --line: rgba(77, 33, 24, 0.16);
+  --footer: #211612;
+}
+
+.demo-restaurant .brand-mark {
+  border-radius: 18px 18px 6px 18px;
+}
+
+.demo-restaurant .visual-scene {
+  background:
+    linear-gradient(135deg, #f5ddc6, #fffaf3 58%, #f1d8c7);
+}
+
+.demo-restaurant .card-icon {
+  font-size: 1rem;
+}

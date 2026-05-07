@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Favicon demo peluquería</title>
+  <rect width="64" height="64" rx="16" fill="#39243f"/>
+  <path d="M19 18l26 28M45 18L19 46" stroke="#fffafd" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="18" cy="17" r="7" fill="#bd7f8e"/>
+  <circle cx="46" cy="17" r="7" fill="#bd7f8e"/>
+</svg>

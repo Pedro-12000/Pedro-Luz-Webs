@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FisioNorte Madrid | Fisioterapia</title>
+    <meta
+      name="description"
+      content="Demo ficticia de landing web para un centro de fisioterapia local, con servicios, contacto, ubicación, horarios y FAQ."
+    >
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#0e6f8d">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="FisioNorte Madrid | Fisioterapia">
+    <meta
+      property="og:description"
+      content="Demo ficticia de landing web para un centro de fisioterapia local, con servicios, contacto, ubicación, horarios y FAQ."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="FisioNorte Madrid | Fisioterapia">
+    <meta
+      name="twitter:description"
+      content="Demo ficticia de landing web para un centro de fisioterapia local."
+    >
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "FisioNorte Madrid",
+        "description": "Centro ficticio de fisioterapia local en Madrid creado como demo comercial.",
+        "url": "./",
+        "priceRange": "€€",
+        "medicalSpecialty": "Physiotherapy",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle Ejemplo 24",
+          "addressLocality": "Madrid",
+          "postalCode": "28000",
+          "addressCountry": "ES"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "14:00"
+          }
+        ],
+        "sameAs": []
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio de FisioNorte Madrid">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false">
+              <path d="M24 7v34M7 24h34" class="mark-cross"></path>
+              <path d="M14 31c5-11 15-4 20-14" class="mark-motion"></path>
+            </svg>
+            <strong>FN</strong>
+          </span>
+          <span class="brand-text">FisioNorte Madrid</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menú de navegación"
+          aria-controls="site-nav"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-nav>
+          <a href="#servicios">Servicios</a>
+          <a href="#metodo">Método</a>
+          <a href="#confianza">Confianza</a>
+          <a href="#opiniones">Opiniones</a>
+          <a href="#ubicacion">Ubicación</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto">Contacto</a>
+          <button class="mobile-nav-cta" type="button" data-demo-action aria-label="Ver aviso de demo para pedir cita">
+            Pedir cita
+          </button>
+        </nav>
+
+        <button class="header-cta" type="button" data-demo-action aria-label="Ver aviso de demo para pedir cita">
+          Pedir cita
+        </button>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Fisioterapia en la zona norte de Madrid</p>
+            <h1>Queremos que vuelvas a moverte con confianza</h1>
+            <p class="hero-lead">
+              En FisioNorte Madrid escuchamos tu caso, valoramos cómo te mueves y te proponemos un plan prudente, explicado sin tecnicismos innecesarios.
+            </p>
+
+            <div class="hero-actions" aria-label="Acciones principales">
+              <button class="btn btn-primary" type="button" data-demo-action aria-label="Ver aviso de demo para WhatsApp">
+                WhatsApp
+              </button>
+              <button class="btn btn-secondary" type="button" data-demo-action aria-label="Ver aviso de demo para llamada">
+                Llamar ahora
+              </button>
+            </div>
+
+            <ul class="trust-list" aria-label="Indicadores de confianza">
+              <li>
+                <span aria-hidden="true"></span>
+                Valoración orientativa
+              </li>
+              <li>
+                <span aria-hidden="true"></span>
+                Tratamiento explicado
+              </li>
+              <li>
+                <span aria-hidden="true"></span>
+                Centro local en Madrid
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Ilustración de una sala de fisioterapia">
+            <div class="visual-card">
+              <div class="visual-topline">
+                <span>Primera valoración</span>
+                <strong>Movimiento</strong>
+              </div>
+              <svg class="clinic-illustration" viewBox="0 0 560 420" role="img" aria-labelledby="clinic-title clinic-desc">
+                <title id="clinic-title">Sala de fisioterapia con camilla y material de movilidad</title>
+                <desc id="clinic-desc">Ilustración decorativa de una sala clínica con camilla, bandas de ejercicio, gráfico de movilidad y zona tranquila de tratamiento.</desc>
+                <rect x="34" y="42" width="492" height="310" rx="28" fill="#eef9f6"></rect>
+                <rect x="74" y="76" width="168" height="112" rx="16" fill="#ffffff" stroke="#c9e3df" stroke-width="3"></rect>
+                <path d="M106 150c22-42 47 5 67-30 13-24 32-23 44-36" fill="none" stroke="#0e6f8d" stroke-width="7" stroke-linecap="round"></path>
+                <circle cx="106" cy="150" r="6" fill="#54b8a6"></circle>
+                <circle cx="173" cy="120" r="6" fill="#54b8a6"></circle>
+                <circle cx="217" cy="84" r="6" fill="#54b8a6"></circle>
+                <rect x="286" y="86" width="132" height="16" rx="8" fill="#cde8e2"></rect>
+                <rect x="286" y="122" width="178" height="16" rx="8" fill="#d8ecf7"></rect>
+                <rect x="286" y="158" width="116" height="16" rx="8" fill="#cde8e2"></rect>
+                <path d="M116 230h280c21 0 38 17 38 38v4H82v-8c0-19 15-34 34-34Z" fill="#0e6f8d"></path>
+                <rect x="84" y="213" width="170" height="50" rx="25" fill="#ffffff" stroke="#c9e3df" stroke-width="4"></rect>
+                <path d="M128 272l-20 70M350 272l24 70" stroke="#58767c" stroke-width="10" stroke-linecap="round"></path>
+                <rect x="406" y="230" width="52" height="98" rx="12" fill="#ffffff" stroke="#c9e3df" stroke-width="4"></rect>
+                <path d="M432 230c-3-33 13-53 44-65" fill="none" stroke="#54b8a6" stroke-width="9" stroke-linecap="round"></path>
+                <circle cx="480" cy="164" r="17" fill="#d8ecf7" stroke="#54b8a6" stroke-width="5"></circle>
+                <circle cx="446" cy="320" r="18" fill="#54b8a6"></circle>
+                <circle cx="490" cy="320" r="18" fill="#0e6f8d"></circle>
+                <path d="M74 350h424" stroke="#c9e3df" stroke-width="5" stroke-linecap="round"></path>
+              </svg>
+              <div class="appointment-card">
+                <span>Próxima disponibilidad</span>
+                <strong>Esta semana</strong>
+                <small>Dato de ejemplo</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section problem-section" aria-labelledby="problema-titulo">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Claridad antes que promesas</p>
+            <h2 id="problema-titulo">Una buena sesión empieza por entender qué necesitas.</h2>
+          </div>
+          <div class="problem-copy reveal">
+            <p>
+              Cuando aparece dolor, rigidez o inseguridad al moverte, lo importante es recibir una explicación clara y saber qué pasos tienen sentido para tu caso.
+            </p>
+            <p>
+              Trabajamos con objetivos realistas, revisando la evolución y adaptando las sesiones sin prometer resultados médicos garantizados.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services-section" id="servicios" aria-labelledby="servicios-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Servicios</p>
+            <h2 id="servicios-titulo">Tratamientos y sesiones orientadas a objetivos reales.</h2>
+            <p>
+              Servicios explicados de forma sencilla para que puedas identificar qué tipo de ayuda necesitas antes de pedir cita.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" focusable="false">
+                  <path d="M24 10v28M10 24h28"></path>
+                  <path d="M14 34c7-13 20-5 24-20"></path>
+                </svg>
+              </span>
+              <h3>Fisioterapia general</h3>
+              <p>Sesiones orientadas a molestias habituales, movilidad y bienestar físico, siempre tras una valoración profesional.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" focusable="false">
+                  <path d="M12 34h22V12"></path>
+                  <path d="M20 12h14v14"></path>
+                  <path d="M14 32l20-20"></path>
+                </svg>
+              </span>
+              <h3>Rehabilitación funcional</h3>
+              <p>Trabajo progresivo para recuperar confianza en gestos cotidianos, respetando cada proceso y sus indicaciones.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" focusable="false">
+                  <path d="M15 21v12c0 5 4 9 9 9s9-4 9-9V18"></path>
+                  <path d="M15 24v-7a3 3 0 0 1 6 0v8"></path>
+                  <path d="M21 25V13a3 3 0 0 1 6 0v12"></path>
+                  <path d="M27 24V15a3 3 0 0 1 6 0v8"></path>
+                </svg>
+              </span>
+              <h3>Terapia manual</h3>
+              <p>Técnicas manuales aplicadas con criterio clínico para ayudar a mejorar comodidad, movilidad y percepción corporal.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" focusable="false">
+                  <path d="M16 34c5-15 15-15 20 0"></path>
+                  <path d="M20 18l5 7 7-12"></path>
+                  <circle cx="17" cy="34" r="3"></circle>
+                  <circle cx="36" cy="34" r="3"></circle>
+                </svg>
+              </span>
+              <h3>Readaptación deportiva</h3>
+              <p>Acompañamiento gradual para volver a entrenar con pautas realistas, coordinadas con objetivos y sensaciones.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" focusable="false">
+                  <path d="M24 8l15 6v10c0 9-6 14-15 18C15 38 9 33 9 24V14l15-6Z"></path>
+                  <path d="M17 25c5-8 11-8 14 0"></path>
+                </svg>
+              </span>
+              <h3>Prevención y movilidad</h3>
+              <p>Ejercicios, consejos y rutinas de movilidad para cuidar hábitos físicos de forma práctica y sostenible.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" focusable="false">
+                  <path d="M14 13h20"></path>
+                  <path d="M14 23h20"></path>
+                  <path d="M14 33h10"></path>
+                  <path d="M28 33l4 4 8-10"></path>
+                </svg>
+              </span>
+              <h3>Valoración inicial</h3>
+              <p>Primera conversación orientativa para conocer el motivo de consulta y decidir el siguiente paso más adecuado.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section method-section" id="metodo" aria-labelledby="metodo-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Método</p>
+            <h2 id="metodo-titulo">Un proceso simple, profesional y fácil de entender.</h2>
+          </div>
+
+          <div class="method-list">
+            <article class="method-step reveal">
+              <span>1</span>
+              <h3>Escuchamos tu caso</h3>
+              <p>Recogemos el motivo de consulta, antecedentes relevantes y lo que quieres conseguir con las sesiones.</p>
+            </article>
+            <article class="method-step reveal">
+              <span>2</span>
+              <h3>Valoramos movilidad</h3>
+              <p>Observamos movilidad, tolerancia y necesidades para plantear una orientación inicial prudente.</p>
+            </article>
+            <article class="method-step reveal">
+              <span>3</span>
+              <h3>Proponemos un plan</h3>
+              <p>Explicamos opciones de trabajo, frecuencia orientativa y recomendaciones generales para tu caso.</p>
+            </article>
+            <article class="method-step reveal">
+              <span>4</span>
+              <h3>Revisamos evolución</h3>
+              <p>Adaptamos las sesiones según sensaciones, progreso y objetivos, manteniendo una comunicación clara.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section trust-section" id="confianza" aria-labelledby="confianza-titulo">
+        <div class="container trust-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Confianza</p>
+            <h2 id="confianza-titulo">Un centro presentado con seriedad, cercanía y transparencia.</h2>
+            <p>
+              Información directa para que sepas qué esperar antes de escribir, llamar o reservar una primera valoración.
+            </p>
+          </div>
+          <div class="trust-cards">
+            <article class="info-card reveal">
+              <span class="label">Equipo</span>
+              <h3>Atención profesional y cercana</h3>
+              <p>
+                Perfiles sanitarios orientados a explicar cada paso, resolver dudas y trabajar con prudencia según la situación de cada persona.
+              </p>
+            </article>
+            <article class="info-card reveal">
+              <span class="label">Espacio</span>
+              <h3>Instalaciones limpias y funcionales</h3>
+              <p>
+                Salas de tratamiento, zona de ejercicio y un entorno tranquilo para valorar, tratar y revisar la evolución con calma.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="opiniones" aria-labelledby="opiniones-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Opiniones</p>
+            <h2 id="opiniones-titulo">Reseñas de ejemplo para mostrar confianza social.</h2>
+            <p>Textos prudentes que en una web real se sustituirían por opiniones verificables del centro.</p>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card reveal">
+              <div class="stars" aria-label="Valoración ficticia de cinco sobre cinco">★★★★★</div>
+              <p>
+                "Me explicaron con calma qué podíamos trabajar y salí con pautas claras para casa. Trato muy cercano."
+              </p>
+              <footer>
+                <strong>Laura M.</strong>
+                <span>Reseña ficticia para demo</span>
+              </footer>
+            </article>
+            <article class="review-card reveal">
+              <div class="stars" aria-label="Valoración ficticia de cinco sobre cinco">★★★★★</div>
+              <p>
+                "La primera visita fue clara y me ayudó a entender mejor mi movilidad. Muy buena sensación de orden."
+              </p>
+              <footer>
+                <strong>Javier R.</strong>
+                <span>Reseña ficticia para demo</span>
+              </footer>
+            </article>
+            <article class="review-card reveal">
+              <div class="stars" aria-label="Valoración ficticia de cinco sobre cinco">★★★★★</div>
+              <p>
+                "Centro tranquilo, puntualidad y explicaciones fáciles de seguir. Recomendaría pedir información."
+              </p>
+              <footer>
+                <strong>Marta S.</strong>
+                <span>Reseña ficticia para demo</span>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section location-section" id="ubicacion" aria-labelledby="ubicacion-titulo">
+        <div class="container location-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Ubicación y horarios</p>
+            <h2 id="ubicacion-titulo">FisioNorte Madrid, cerca de ti.</h2>
+            <p>Datos locales de ejemplo para mostrar dirección, horarios y acceso rápido desde la web.</p>
+
+            <div class="location-details">
+              <p><strong>Dirección:</strong> Calle Ejemplo 24, Madrid</p>
+              <p><strong>Lunes a viernes:</strong> 9:00 - 20:00</p>
+              <p><strong>Sábados:</strong> 10:00 - 14:00</p>
+            </div>
+
+            <button class="btn btn-secondary" type="button" data-demo-action aria-label="Ver aviso de demo para cómo llegar">
+              Cómo llegar
+            </button>
+          </div>
+
+          <div class="map-placeholder reveal" role="img" aria-label="Mapa visual orientativo de la ubicación de FisioNorte Madrid">
+            <div class="map-roads" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="map-pin" aria-hidden="true"></div>
+            <div class="map-note">
+              <strong>Mapa orientativo</strong>
+              <span>Sin API externa</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq" aria-labelledby="faq-titulo">
+        <div class="container faq-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2 id="faq-titulo">Preguntas habituales antes de pedir cita.</h2>
+          </div>
+
+          <div class="faq-list reveal">
+            <details>
+              <summary>¿Necesito diagnóstico médico?</summary>
+              <p>Depende del caso. Si ya tienes informes o pruebas, puedes traerlos. Si aparecen señales que requieren valoración médica, se te orientaría para consultarlo con el profesional adecuado.</p>
+            </details>
+            <details>
+              <summary>¿Cuánto dura una sesión?</summary>
+              <p>La duración habitual se acordaría según el tipo de sesión. Como referencia orientativa, muchas sesiones de fisioterapia se sitúan entre 45 y 60 minutos.</p>
+            </details>
+            <details>
+              <summary>¿Puedo pedir cita por WhatsApp?</summary>
+              <p>Sí. En esta demo el botón muestra un aviso interno. En una web real se configuraría con el número del centro.</p>
+            </details>
+            <details>
+              <summary>¿Trabajáis con seguros?</summary>
+              <p>Esta página no representa acuerdos con aseguradoras. En un proyecto real se indicarían solo los seguros o condiciones confirmadas por el centro.</p>
+            </details>
+            <details>
+              <summary>¿La primera visita es gratuita?</summary>
+              <p>La primera valoración orientativa puede variar según cada centro. En una web real se explicaría con claridad si tiene coste, duración y condiciones.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contacto" aria-labelledby="contacto-titulo">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contacto</p>
+            <h2 id="contacto-titulo">Pide información o agenda una primera valoración orientativa.</h2>
+            <p>
+              Contacto directo y visible para resolver dudas, confirmar horarios y elegir el siguiente paso sin complicar la experiencia.
+            </p>
+
+            <div class="contact-actions">
+              <button class="btn btn-primary" type="button" data-demo-action aria-label="Ver aviso de demo para WhatsApp">
+                WhatsApp
+              </button>
+              <button class="btn btn-secondary" type="button" data-demo-action aria-label="Ver aviso de demo para llamada">
+                Llamada
+              </button>
+            </div>
+
+            <p class="contact-email">
+              Email de ejemplo:
+              <button class="text-action" type="button" data-demo-action>hola@fisionorte-demo.es</button>
+            </p>
+          </div>
+
+          <form class="contact-form reveal" novalidate data-demo-form>
+            <div class="form-field">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+              <span class="field-error" aria-live="polite"></span>
+            </div>
+            <div class="form-field">
+              <label for="telefono">Teléfono</label>
+              <input id="telefono" name="telefono" type="tel" autocomplete="tel" required>
+              <span class="field-error" aria-live="polite"></span>
+            </div>
+            <div class="form-field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+              <span class="field-error" aria-live="polite"></span>
+            </div>
+            <p class="form-note">
+              Formulario de demo. En una web real se conectaría a email, WhatsApp o sistema de reservas.
+            </p>
+            <button class="btn btn-primary form-submit" type="submit">
+              Enviar consulta
+            </button>
+            <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>FisioNorte Madrid</strong>
+          <p>Negocio ficticio. Aviso legal básico de demo sin validez contractual.</p>
+          <p>Demo ficticia creada para mostrar una web de ejemplo. No representa un negocio real.</p>
+        </div>
+        <nav aria-label="Enlaces legales de demo">
+          <button class="footer-link" type="button" data-demo-action>Aviso legal</button>
+          <button class="footer-link" type="button" data-demo-action>Privacidad</button>
+          <button class="footer-link" type="button" data-demo-action>Cookies</button>
+        </nav>
+      </div>
+    </footer>
+
+    <div class="demo-toast" role="status" aria-live="polite" data-demo-toast></div>
+    <script src="script.js" defer></script>
+  </body>
+</html>

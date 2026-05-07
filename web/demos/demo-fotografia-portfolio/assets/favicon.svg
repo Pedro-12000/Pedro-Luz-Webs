@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Favicon demo fotografía</title>
+  <rect width="64" height="64" rx="16" fill="#2e2925"/>
+  <rect x="14" y="22" width="36" height="28" rx="8" fill="#fffdf9"/>
+  <path d="M23 22l5-8h12l5 8" fill="#b66a57"/>
+  <circle cx="32" cy="36" r="9" fill="#514840"/>
+  <circle cx="32" cy="36" r="4" fill="#efd5c9"/>
+</svg>

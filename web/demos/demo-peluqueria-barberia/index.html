@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Peluquería Local | Demo web</title>
+    <meta name="description" content="Demo ficticia de landing web para peluquería o barbería local, con servicios, reservas de demo, horarios y contacto visual.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#5a405f">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="Peluquería Local | Demo web">
+    <meta property="og:description" content="Demo ficticia para mostrar una web de peluquería o barbería local.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Peluquería Local | Demo web">
+    <link rel="stylesheet" href="../shared/demo-base.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HairSalon",
+        "name": "Estudio Alba",
+        "description": "Peluquería y barbería ficticia creada como demo comercial.",
+        "url": "./",
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Avenida del Mercado 7",
+          "addressLocality": "Madrid",
+          "addressCountry": "ES"
+        }
+      }
+    </script>
+  </head>
+  <body class="demo-hair">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio de Estudio Alba">
+          <span class="brand-mark">EA</span>
+          <span class="brand-copy"><span class="brand-name">Estudio Alba</span><span class="brand-sector">Peluquería y barbería</span></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú de navegación" aria-controls="site-nav" aria-expanded="false" data-nav-toggle><span></span><span></span><span></span></button>
+        <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-nav>
+          <a href="#servicios">Servicios</a>
+          <a href="#estilo">Estilo</a>
+          <a href="#horarios">Horarios</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <button class="btn btn-primary header-action" type="button" data-demo-action>Reservar cita</button>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Imagen cuidada sin complicaciones</p>
+            <h1>Reserva tu corte, color o arreglo de barba en pocos segundos</h1>
+            <p class="hero-lead">Estudio Alba es una demo para peluquerías que necesitan mostrar servicios, estilo, horario y cita rápida con una imagen profesional.</p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-demo-action>Reservar por WhatsApp</button>
+              <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+            </div>
+            <ul class="trust-strip">
+              <li><span></span>Lista de precios clara</li>
+              <li><span></span>Cita previa visible</li>
+              <li><span></span>Estilo visual propio</li>
+            </ul>
+          </div>
+          <div class="hero-card reveal">
+            <div class="visual-top"><span>Agenda de ejemplo</span><strong>Cita previa</strong></div>
+            <div class="visual-scene hair-scene" role="img" aria-label="Ilustración de tocador de peluquería con espejo y herramientas">
+              <svg viewBox="0 0 620 430" aria-hidden="true">
+                <rect x="84" y="64" width="452" height="276" rx="30" fill="var(--surface)" opacity="0.9"></rect>
+                <rect x="136" y="88" width="190" height="220" rx="95" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="8"></rect>
+                <path d="M226 140c-35 10-54 40-54 74 0 45 28 78 61 78s61-33 61-78c0-34-18-62-50-74" fill="none" stroke="var(--accent-dark)" stroke-width="10" stroke-linecap="round"></path>
+                <path d="M390 116l86 86M476 116l-86 86" stroke="var(--accent-dark)" stroke-width="10" stroke-linecap="round"></path>
+                <circle cx="388" cy="114" r="16" fill="var(--secondary)"></circle>
+                <circle cx="478" cy="114" r="16" fill="var(--secondary)"></circle>
+                <rect x="376" y="248" width="120" height="44" rx="22" fill="var(--accent)"></rect>
+                <path d="M390 270h92" stroke="var(--surface)" stroke-width="8" stroke-linecap="round"></path>
+              </svg>
+              <div class="scene-note"><strong>Corte + estilo</strong><span>Servicios y precios orientativos de demo</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="servicios" aria-labelledby="servicios-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Servicios</p>
+            <h2 id="servicios-titulo">Lo que un cliente busca antes de reservar</h2>
+            <p>Tarifas orientativas, tiempos de servicio y especialidades ordenadas para decidir sin llamar primero.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card reveal"><span class="card-icon">C</span><h3>Corte y peinado</h3><p>Cortes actuales, arreglo de puntas, lavado y acabado con cita previa.</p></article>
+            <article class="card reveal"><span class="card-icon">B</span><h3>Barbería</h3><p>Arreglo de barba, perfilado y corte masculino con atención rápida.</p></article>
+            <article class="card reveal"><span class="card-icon">L</span><h3>Color y tratamiento</h3><p>Coloración, matiz y tratamientos capilares explicados con prudencia.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-band" id="estilo" aria-labelledby="estilo-titulo">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Estilo y confianza</p>
+            <h2 id="estilo-titulo">Una presencia visual que no parece una plantilla</h2>
+            <p>La web combina servicios, tono cercano y una estructura preparada para añadir fotos reales del local cuando existan.</p>
+          </div>
+          <div class="info-panel reveal">
+            <ul class="feature-list">
+              <li>Especialidades visibles desde la primera pantalla</li>
+              <li>Precios orientativos sin prometer resultados imposibles</li>
+              <li>Horario, ubicación y contacto siempre a mano</li>
+              <li>Reseñas de ejemplo marcadas como contenido ficticio</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="proceso-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal"><p class="eyebrow">Proceso</p><h2 id="proceso-titulo">Cita clara de principio a fin</h2></div>
+          <div class="step-list">
+            <article class="step-card reveal"><span class="step-number">1</span><h3>Elige servicio</h3><p>El cliente entiende duración y tipo de cita.</p></article>
+            <article class="step-card reveal"><span class="step-number">2</span><h3>Consulta horario</h3><p>Se muestran franjas de atención de forma sencilla.</p></article>
+            <article class="step-card reveal"><span class="step-number">3</span><h3>Reserva</h3><p>En modo real el botón conectaría con el canal del negocio.</p></article>
+            <article class="step-card reveal"><span class="step-number">4</span><h3>Confirma</h3><p>La web reduce mensajes repetidos y dudas básicas.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" aria-labelledby="opiniones-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal"><p class="eyebrow">Confianza</p><h2 id="opiniones-titulo">Reseñas ficticias de ejemplo</h2></div>
+          <div class="reviews-grid">
+            <article class="review-card reveal"><div class="stars">★★★★★</div><p>"Me orientaron con el corte y salí con una idea clara del mantenimiento."</p><footer><strong>Cliente demo</strong><span>Reseña ficticia</span></footer></article>
+            <article class="review-card reveal"><div class="stars">★★★★★</div><p>"Reservar fue rápido y el horario estaba muy claro en la web."</p><footer><strong>Cliente demo</strong><span>Reseña ficticia</span></footer></article>
+            <article class="review-card reveal"><div class="stars">★★★★★</div><p>"La página transmite estilo sin complicar la información importante."</p><footer><strong>Cliente demo</strong><span>Reseña ficticia</span></footer></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="horarios" aria-labelledby="horarios-titulo">
+        <div class="container location-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Ubicación y horario</p>
+            <h2 id="horarios-titulo">Estudio Alba, cerca del mercado</h2>
+            <p>Avenida del Mercado 7, Madrid. Dirección ficticia para mostrar la sección local.</p>
+            <ul class="hours-list">
+              <li>Martes a viernes: 10:00 - 20:00</li>
+              <li>Sábado: 10:00 - 15:00</li>
+              <li>Lunes: cerrado</li>
+            </ul>
+            <div class="hero-actions"><button class="btn btn-primary" type="button" data-demo-action>Reservar cita</button><button class="btn btn-secondary" type="button" data-demo-action>Cómo llegar</button></div>
+          </div>
+          <div class="map-card reveal" role="img" aria-label="Mapa visual orientativo de Estudio Alba"><span class="map-road"></span><span class="map-road"></span><span class="map-road"></span><span class="map-pin"></span><div class="map-label"><strong>Estudio Alba</strong><span>Mapa de demo sin API externa</span></div></div>
+        </div>
+      </section>
+
+      <section class="section section-band" id="faq" aria-labelledby="faq-titulo">
+        <div class="container two-column">
+          <div class="section-heading reveal"><p class="eyebrow">FAQ</p><h2 id="faq-titulo">Antes de reservar</h2></div>
+          <div class="faq-list reveal">
+            <details><summary><span>¿Los precios son reales?</span><span class="faq-icon"></span></summary><p>No. Son ejemplos que se sustituirían por las tarifas reales del salón.</p></details>
+            <details><summary><span>¿Puedo añadir fotos de trabajos?</span><span class="faq-icon"></span></summary><p>Sí. La estructura está preparada para incluir una galería sencilla.</p></details>
+            <details><summary><span>¿El botón reserva de verdad?</span><span class="faq-icon"></span></summary><p>No en esta demo. Muestra un aviso para explicar que en una web real iría conectado.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contacto" aria-labelledby="contacto-titulo">
+        <div class="container contact-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contacto</p>
+            <h2 id="contacto-titulo">Pide cita o consulta disponibilidad</h2>
+            <p>Zona de contacto de ejemplo, sin teléfono ni enlaces reales.</p>
+            <div class="contact-actions"><button class="btn btn-primary" type="button" data-demo-action>WhatsApp de citas</button><button class="btn btn-secondary" type="button" data-demo-action>Llamar al salón</button></div>
+          </div>
+          <div class="contact-card reveal">
+            <form novalidate data-demo-form>
+              <div class="form-field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="form-field"><label for="servicio">Servicio</label><select id="servicio" name="servicio" required><option value="">Selecciona una opción</option><option>Corte</option><option>Color</option><option>Barbería</option></select><span class="field-error" aria-live="polite"></span></div>
+              <div class="form-field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" required></textarea><span class="field-error" aria-live="polite"></span></div>
+              <p class="form-note">Formulario de demo. No envía datos reales.</p>
+              <button class="btn btn-primary" type="submit">Solicitar cita</button>
+              <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><strong>Estudio Alba</strong><p>Footer legal básico de demo sin validez contractual.</p><p class="demo-disclaimer">Demo ficticia creada para mostrar una web de ejemplo. No representa un negocio real.</p></div>
+        <nav aria-label="Enlaces legales de demo"><button class="footer-link" type="button" data-demo-action>Aviso legal</button><button class="footer-link" type="button" data-demo-action>Privacidad</button><button class="footer-link" type="button" data-demo-action>Cookies</button></nav>
+      </div>
+    </footer>
+    <div class="demo-toast" role="status" aria-live="polite" data-demo-toast></div>
+    <script src="script.js" defer></script>
+    <script src="../shared/demo-core.js" defer></script>
+  </body>
+</html>

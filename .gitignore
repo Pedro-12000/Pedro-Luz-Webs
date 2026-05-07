@@ -1,0 +1,62 @@
+# Entorno
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Entornos virtuales Python
+.venv/
+**/.venv/
+venv/
+**/venv/
+
+# Python/cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Sistema y temporales
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.bak
+*.swp
+*.log
+
+# Bases de datos locales
+*.sqlite
+*.sqlite3
+*.db
+
+# Posibles claves o credenciales
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_dsa
+
+# Datos internos / prospección
+operaciones/*.csv
+tools/buscador-locales/data/
+tools/buscador-locales/backend/data/
+tools/buscador-locales/backend/storage/
+tools/buscador-locales/backend/*.db
+tools/buscador-locales/backend/*.sqlite
+tools/buscador-locales/backend/*.sqlite3
+
+# Privado / no publicar
+tools/
+comercial/
+operaciones/
+
+# Entornos y secretos
+.env
+.env.*
+*.env
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc

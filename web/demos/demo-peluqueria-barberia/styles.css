@@ -1,0 +1,23 @@
+:root {
+  --ink: #241d26;
+  --muted: #736878;
+  --paper: #f6eff3;
+  --paper-strong: #e8d8e3;
+  --surface: #fffafd;
+  --accent: #6a4a72;
+  --accent-dark: #39243f;
+  --accent-soft: #eadbea;
+  --secondary: #bd7f8e;
+  --secondary-soft: #f4dde4;
+  --line: rgba(57, 36, 63, 0.16);
+  --footer: #211824;
+}
+
+.demo-hair .brand-mark {
+  border-radius: 50% 50% 50% 10px;
+}
+
+.demo-hair .visual-scene {
+  background:
+    linear-gradient(135deg, #eadbea, #fffafd 56%, #f4dde4);
+}

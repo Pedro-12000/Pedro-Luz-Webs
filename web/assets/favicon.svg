@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">CreadorWebs · Todo tipo de webs</title>
+  <desc id="desc">Monograma CW con fondo verde oscuro y acento naranja.</desc>
+  <defs>
+    <linearGradient id="shine" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0.46" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#153f35"/>
+  <rect width="64" height="64" rx="18" fill="url(#shine)"/>
+  <path d="M2 58h60v4H2z" fill="#0b2a24" opacity="0.28"/>
+  <text x="32" y="38" text-anchor="middle" fill="#fffdf8" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900" letter-spacing="0">CW</text>
+  <path d="M38 50h17" fill="none" stroke="#a7653d" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academia Local | Demo web</title>
+    <meta name="description" content="Demo ficticia de landing web para academia local, con cursos, método, horarios, FAQ y contacto de demo.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#2f6474">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <meta property="og:title" content="Academia Local | Demo web">
+    <meta property="og:description" content="Demo ficticia para mostrar una web de academia local.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Academia Local | Demo web">
+    <link rel="stylesheet" href="../shared/demo-base.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Aula Norte",
+        "description": "Academia ficticia creada como demo comercial.",
+        "url": "./",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle de los Estudiantes 5",
+          "addressLocality": "Madrid",
+          "addressCountry": "ES"
+        }
+      }
+    </script>
+  </head>
+  <body class="demo-academy">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio de Aula Norte">
+          <span class="brand-mark">AN</span>
+          <span class="brand-copy"><span class="brand-name">Aula Norte</span><span class="brand-sector">Academia local</span></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Abrir menú de navegación" aria-controls="site-nav" aria-expanded="false" data-nav-toggle><span></span><span></span><span></span></button>
+        <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-nav>
+          <a href="#cursos">Cursos</a>
+          <a href="#metodo">Método</a>
+          <a href="#horarios">Horarios</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <button class="btn btn-primary header-action" type="button" data-demo-action>Solicitar información</button>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Clases claras para avanzar con orden</p>
+            <h1>Cursos, refuerzo y horarios explicados para familias y alumnos</h1>
+            <p class="hero-lead">Aula Norte es una demo de academia local con estructura para cursos, niveles, método de trabajo, horarios y solicitud de información.</p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-demo-action>Pedir información</button>
+              <a class="btn btn-secondary" href="#cursos">Ver cursos</a>
+            </div>
+            <ul class="trust-strip">
+              <li><span></span>Grupos reducidos</li>
+              <li><span></span>Seguimiento claro</li>
+              <li><span></span>Horarios por nivel</li>
+            </ul>
+          </div>
+          <div class="hero-card reveal">
+            <div class="visual-top"><span>Curso abierto</span><strong>Septiembre</strong></div>
+            <div class="visual-scene academy-scene" role="img" aria-label="Ilustración de aula con libro, pizarra y calendario">
+              <svg viewBox="0 0 620 430" aria-hidden="true">
+                <rect x="66" y="72" width="488" height="286" rx="24" fill="var(--surface)" opacity="0.92"></rect>
+                <rect x="104" y="104" width="256" height="138" rx="16" fill="var(--accent-dark)"></rect>
+                <path d="M136 146h152M136 184h112" stroke="var(--accent-soft)" stroke-width="12" stroke-linecap="round"></path>
+                <path d="M168 294c44-30 84-30 128 0v56c-44-28-84-28-128 0v-56Z" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="7" stroke-linejoin="round"></path>
+                <path d="M296 294c44-30 84-30 128 0v56c-44-28-84-28-128 0v-56Z" fill="var(--surface)" stroke="var(--accent)" stroke-width="7" stroke-linejoin="round"></path>
+                <rect x="396" y="112" width="94" height="92" rx="12" fill="var(--secondary-soft)"></rect>
+                <path d="M414 144h58M414 174h38" stroke="var(--secondary)" stroke-width="8" stroke-linecap="round"></path>
+              </svg>
+              <div class="scene-note"><strong>Plazas limitadas</strong><span>Mensaje de ejemplo, sin inscripción real</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="cursos" aria-labelledby="cursos-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Cursos</p>
+            <h2 id="cursos-titulo">Oferta explicada por nivel y necesidad</h2>
+            <p>La página ayuda a entender qué ofrece la academia antes de llamar o escribir.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card reveal"><span class="card-icon">ESO</span><h3>Refuerzo escolar</h3><p>Apoyo en materias troncales, hábitos de estudio y seguimiento semanal.</p></article>
+            <article class="card reveal"><span class="card-icon">B1</span><h3>Idiomas</h3><p>Clases por nivel con objetivos realistas y preparación práctica.</p></article>
+            <article class="card reveal"><span class="card-icon">PAU</span><h3>Preparación de pruebas</h3><p>Programas intensivos de repaso, simulacros y organización de estudio.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-band" id="metodo" aria-labelledby="metodo-titulo">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Método</p>
+            <h2 id="metodo-titulo">Comunicación clara con alumnos y familias</h2>
+            <p>Una academia necesita transmitir orden, confianza y pasos concretos sin prometer resultados garantizados.</p>
+          </div>
+          <div class="info-panel reveal">
+            <ul class="feature-list">
+              <li>Evaluación inicial orientativa</li>
+              <li>Grupos organizados por nivel y objetivo</li>
+              <li>Seguimiento periódico de asistencia y evolución</li>
+              <li>Contacto visible para resolver dudas antes de matricular</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="pasos-titulo">
+        <div class="container">
+          <div class="section-heading centered reveal"><p class="eyebrow">Proceso</p><h2 id="pasos-titulo">De la duda a la primera clase</h2></div>
+          <div class="step-list">
+            <article class="step-card reveal"><span class="step-number">1</span><h3>Consulta</h3><p>El alumno o familia explica qué necesita.</p></article>
+            <article class="step-card reveal"><span class="step-number">2</span><h3>Orientación</h3><p>La academia propone nivel y grupo de forma prudente.</p></article>
+            <article class="step-card reveal"><span class="step-number">3</span><h3>Horario</h3><p>Se muestran opciones compatibles con el curso.</p></article>
+            <article class="step-card reveal"><span class="step-number">4</span><h3>Seguimiento</h3><p>La familia sabe cómo se comunicará el avance.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="horarios" aria-labelledby="horarios-titulo">
+        <div class="container location-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Horarios y ubicación</p>
+            <h2 id="horarios-titulo">Clases de tarde y grupos por nivel</h2>
+            <p>Calle de los Estudiantes 5, Madrid. Dirección ficticia de ejemplo.</p>
+            <ul class="hours-list">
+              <li>Lunes a jueves: 16:00 - 21:00</li>
+              <li>Viernes: tutorías y seguimiento</li>
+              <li>Sábados: intensivos de prueba bajo reserva</li>
+            </ul>
+            <div class="hero-actions"><button class="btn btn-primary" type="button" data-demo-action>Solicitar plaza</button><button class="btn btn-secondary" type="button" data-demo-action>Ver ubicación</button></div>
+          </div>
+          <div class="map-card reveal" role="img" aria-label="Mapa visual orientativo de Aula Norte"><span class="map-road"></span><span class="map-road"></span><span class="map-road"></span><span class="map-pin"></span><div class="map-label"><strong>Aula Norte</strong><span>Mapa de demo sin API externa</span></div></div>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-labelledby="faq-titulo">
+        <div class="container two-column">
+          <div class="section-heading reveal"><p class="eyebrow">FAQ</p><h2 id="faq-titulo">Dudas antes de empezar</h2></div>
+          <div class="faq-list reveal">
+            <details><summary><span>¿Las plazas son reales?</span><span class="faq-icon"></span></summary><p>No. Esta página es una demo y los datos se sustituirían por información real.</p></details>
+            <details><summary><span>¿Se prometen aprobados?</span><span class="faq-icon"></span></summary><p>No. La web debe explicar método y acompañamiento sin prometer resultados garantizados.</p></details>
+            <details><summary><span>¿Puede incluir niveles y tarifas?</span><span class="faq-icon"></span></summary><p>Sí, si la academia tiene esa información preparada y quiere publicarla.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-band" id="contacto" aria-labelledby="contacto-titulo">
+        <div class="container contact-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contacto</p>
+            <h2 id="contacto-titulo">Pide información sobre grupos y horarios</h2>
+            <p>Todos los botones funcionan en modo demo y no abren contactos reales.</p>
+            <div class="contact-actions"><button class="btn btn-primary" type="button" data-demo-action>WhatsApp de información</button><button class="btn btn-secondary" type="button" data-demo-action>Llamar a secretaría</button></div>
+          </div>
+          <div class="contact-card reveal">
+            <form novalidate data-demo-form>
+              <div class="form-field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" required><span class="field-error" aria-live="polite"></span></div>
+              <div class="form-field"><label for="nivel">Nivel</label><select id="nivel" name="nivel" required><option value="">Selecciona una opción</option><option>Primaria</option><option>ESO</option><option>Bachillerato</option><option>Idiomas</option></select><span class="field-error" aria-live="polite"></span></div>
+              <div class="form-field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" required></textarea><span class="field-error" aria-live="polite"></span></div>
+              <p class="form-note">Formulario de demo. No envía datos reales.</p>
+              <button class="btn btn-primary" type="submit">Enviar consulta</button>
+              <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><strong>Aula Norte</strong><p>Footer legal básico de demo sin validez contractual.</p><p class="demo-disclaimer">Demo ficticia creada para mostrar una web de ejemplo. No representa un negocio real.</p></div>
+        <nav aria-label="Enlaces legales de demo"><button class="footer-link" type="button" data-demo-action>Aviso legal</button><button class="footer-link" type="button" data-demo-action>Privacidad</button><button class="footer-link" type="button" data-demo-action>Cookies</button></nav>
+      </div>
+    </footer>
+    <div class="demo-toast" role="status" aria-live="polite" data-demo-toast></div>
+    <script src="script.js" defer></script>
+    <script src="../shared/demo-core.js" defer></script>
+  </body>
+</html>

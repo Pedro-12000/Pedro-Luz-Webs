@@ -1,0 +1,27 @@
+:root {
+  --ink: #18252b;
+  --muted: #64747b;
+  --paper: #edf3f2;
+  --paper-strong: #d6e5e6;
+  --surface: #fbfefd;
+  --accent: #2f6474;
+  --accent-dark: #173f4b;
+  --accent-soft: #d9ebee;
+  --secondary: #d2a64b;
+  --secondary-soft: #f1e3bc;
+  --line: rgba(23, 63, 75, 0.16);
+  --footer: #14262d;
+}
+
+.demo-academy .brand-mark {
+  border-radius: 12px;
+}
+
+.demo-academy .visual-scene {
+  background:
+    linear-gradient(135deg, #d9ebee, #fbfefd 58%, #f1e3bc);
+}
+
+.demo-academy .card-icon {
+  font-size: 0.9rem;
+}
