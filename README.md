@@ -1,54 +1,64 @@
 # CreadorWebs
 
-Web comercial para presentar servicios de creación y modernización de páginas web para negocios, autónomos, proyectos personales, portfolios, servicios profesionales y pequeñas marcas.
+CreadorWebs es la web comercial de un servicio de creación y modernización de páginas web para negocios, autónomos, proyectos personales, portfolios, servicios profesionales y pequeñas marcas.
 
-Sitio publicado en:
+El objetivo es explicar de forma clara qué tipo de webs puedo preparar, enseñar ejemplos visuales mediante demos ficticias y facilitar el contacto por WhatsApp, email, teléfono o Instagram.
 
-https://creadorwebs.es
-
-## Web pública
-
-La web pública está en la carpeta `web/`.
-
-Netlify debe publicar únicamente esa carpeta:
-
-```toml
-[build]
-  publish = "web"
-```
+Sitio publicado: <https://creadorwebs.es>
 
 ## Qué incluye
 
-- Portfolio comercial
-- Sección de servicios
-- Carrusel de demos por tipo de web
-- Caso real publicado
-- Páginas de privacidad y cookies
-- Preparación para despliegue en Netlify
+- Página principal comercial.
+- Páginas para negocios, autónomos, locales y proyectos.
+- Páginas sectoriales para restaurantes, peluquerías, clínicas, academias, tiendas, autoescuelas, fotógrafos y servicios profesionales.
+- Demos ficticias dentro del portfolio.
+- Caso real publicado como referencia visual y técnica.
+- Proceso de trabajo, preguntas frecuentes y contacto.
+- Páginas legales de privacidad y cookies.
+- `sitemap.xml` y `robots.txt` para SEO básico.
+- Página `404.html` personalizada.
 
-## Estructura
+## Páginas principales
 
-```text
-web/
-  index.html
-  styles.css
-  script.js
-  assets/
-  privacidad.html
-  cookies.html
-  demos/
-```
+- `web/index.html`
+- `web/webs-para-negocios.html`
+- `web/webs-para-autonomos.html`
+- `web/webs-para-locales.html`
+- `web/webs-para-proyectos.html`
+
+## Páginas por sector
+
+- `web/webs-para-restaurantes.html`
+- `web/webs-para-peluquerias.html`
+- `web/webs-para-clinicas.html`
+- `web/webs-para-academias.html`
+- `web/webs-para-tiendas.html`
+- `web/webs-para-autoescuelas.html`
+- `web/webs-para-fotografos.html`
+- `web/webs-para-servicios-profesionales.html`
 
 ## Demos
 
-Las demos están dentro de `web/demos/` y sirven como ejemplos visuales de posibles webs para distintos tipos de proyecto.
+Las demos están en `web/demos/` y son ejemplos ficticios para mostrar estructura, tono y experiencia de contacto.
 
-Son demos ficticias y están marcadas como `noindex` para que no se indexen como negocios reales.
+Deben mantenerse siempre:
 
-## Despliegue
+- Fuera de `web/sitemap.xml`.
+- Marcadas con `noindex, nofollow`.
+- Presentadas como demos, no como negocios reales.
 
-El proyecto está preparado para publicarse en Netlify desde GitHub.
+## Publicación
 
-Dominio principal:
+Netlify debe publicar únicamente la carpeta `web/`.
 
-https://creadorwebs.es
+No hay backend público, base de datos, build, frameworks, analytics ni cookies analíticas. La web está pensada para publicarse como sitio estático en Netlify, GitHub Pages o Vercel.
+
+## SEO básico
+
+Las páginas públicas indexables incluyen title, meta description, canonical, Open Graph, Twitter Card, headings claros, enlaces internos, `sitemap.xml` y `robots.txt`.
+
+Las demos y la página 404 no deben aparecer en el sitemap.
+
+## Privado
+
+`tools/`, `comercial/`, `operaciones/`, entornos virtuales, `.env`, logs, CSVs privados, bases de datos locales y credenciales no forman parte de la web pública y no deben subirse como contenido publicado.
